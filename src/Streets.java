@@ -15,10 +15,10 @@ public class Streets extends Property {
     private int houseCost;
     private int hotelCost;
 
-    public Streets(String propertyName, Player owner, int propertyCost, int mortageValue , int rent, String setColor,
+    public Streets(String propertyName, int propertyLocation, Player owner, int propertyCost, int mortageValue , int rent, String setColor,
                    int baseRent, int rentWithOneHouse, int rentWithTwoHouse , int rentWithThreeHouse , int rentWithFourHouse,
                    int rentWithHotel, int numHouses, boolean hotelOnProperty, int buildingsCost ) {
-        super(propertyName, owner, propertyCost,mortageValue, rent, false);
+        super(propertyName,propertyLocation, owner, propertyCost,mortageValue, rent, false);
         this.setColor = setColor;
         this.baseRent = baseRent;
         this.rentWithOneHouse = rentWithOneHouse;

@@ -1,0 +1,2 @@
+Streets mediterranian = new Streets("Mediterranian Avenue", 1, null, 60,30,2,"Brown", 2,10, 30, 90, 160, 250, 0, false, 50);
+        System.out.println(mediterranian.toString());

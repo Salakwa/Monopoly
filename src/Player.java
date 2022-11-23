@@ -7,6 +7,7 @@ public class Player {
     private ArrayList<Property> propertyOwned = new ArrayList<Property>();
     boolean isCPU;
     boolean imprisoned;
+    boolean isBankruot;
 
     public Player(String playerName, int balance, int location, ArrayList<Property> propertyOwned, boolean isCPU, boolean imprisoned ) {
         this.playerName = playerName;
@@ -59,7 +60,9 @@ public class Player {
         } else {
 
         }
+    }
 
+    public void payPlayer(Player player, int moneyOwed){
 
     }
 

@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a06f2f27-2941-4224-a4af-6884e918522c" name="Changes" comment="Created Property Classes and Started Player Class">
+    <list default="true" id="a06f2f27-2941-4224-a4af-6884e918522c" name="Changes" comment="worked on RollDice and getNetworth Methods">
+      <change afterPath="$PROJECT_DIR$/src/CommunityChest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameOne.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameThree.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Railroad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Railroad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Streets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Streets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668621956893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="worked on RollDice and getNetworth Methods">
+      <created>1668658044581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668658044585</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Property Classes and Started Player Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Property Classes and Started Player Class" />
+    <MESSAGE value="worked on RollDice and getNetworth Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on RollDice and getNetworth Methods" />
   </component>
 </project>
