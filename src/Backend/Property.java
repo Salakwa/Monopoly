@@ -1,4 +1,6 @@
-public class Property {
+package Backend;
+
+public class Property extends Square {
     protected String propertyName;
     protected int propertyCost;
     protected int mortageValue;
@@ -6,8 +8,8 @@ public class Property {
     protected Player owner;
     boolean currentlyMortaged;
 
-    public Property(String propertyName,Player owner, int propertyCost, int mortageValue, int rent, boolean currentlyMortaged) {
-        this.propertyName = propertyName;
+    public Property(String propertyName, int propertyLocation, Player owner, int propertyCost, int mortageValue, int rent, boolean currentlyMortaged) {
+        super(propertyName, propertyLocation);
         this.owner = owner;
         this.propertyCost = propertyCost;
         this.mortageValue = mortageValue;
@@ -41,6 +43,10 @@ public class Property {
 
     public void setOwner(Player player) {
         owner = player;
+    }
+
+    public void setCurrentlyMortaged(boolean isMortaged) {
+        currentlyMortaged = isMortaged;
     }
 
 

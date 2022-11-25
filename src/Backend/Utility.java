@@ -1,7 +1,9 @@
+package Backend;
+
 public class Utility extends Property{
 
-    public Utility(String propertyName,Player owner, int propertyCost, int rent) {
-        super(propertyName, owner, propertyCost, 75, rent, false);
+    public Utility(String propertyName, int propertyLocation, Player owner, int propertyCost, int rent) {
+        super(propertyName, propertyLocation, owner, propertyCost, 75, rent, false);
     }
 
     public void setUtilityRent(int diceRoll, int numUtilitiesOwned) {
