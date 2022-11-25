@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a06f2f27-2941-4224-a4af-6884e918522c" name="Changes" comment="worked on RollDice and getNetworth Methods">
-      <change afterPath="$PROJECT_DIR$/src/CommunityChest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameOne.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameThree.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
+    <list default="true" id="a06f2f27-2941-4224-a4af-6884e918522c" name="Changes" comment="Created Game Save Files, created CommunityChest and Chance">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backend/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frontend/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Frontend/PlayerSetupFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Railroad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Railroad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Streets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Streets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunityChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend/CommunityChest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameOne.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameThree.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Railroad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend/Railroad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Streets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend/Streets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Frontend.Main" />
       <module name="Monopoly" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668658044585</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created Game Save Files, created CommunityChest and Chance">
+      <created>1669187914606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669187914607</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Property Classes and Started Player Class" />
     <MESSAGE value="worked on RollDice and getNetworth Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked on RollDice and getNetworth Methods" />
+    <MESSAGE value="Created Game Save Files, created CommunityChest and Chance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Game Save Files, created CommunityChest and Chance" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+package Backend;
+
 public class Square {
     protected String squareName;
     protected int squareLocationInt;

@@ -1,3 +1,5 @@
+package Backend;
+
 public class Property extends Square {
     protected String propertyName;
     protected int propertyCost;
@@ -41,6 +43,10 @@ public class Property extends Square {
 
     public void setOwner(Player player) {
         owner = player;
+    }
+
+    public void setCurrentlyMortaged(boolean isMortaged) {
+        currentlyMortaged = isMortaged;
     }
 
 

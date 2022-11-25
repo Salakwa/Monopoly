@@ -1,3 +1,5 @@
+package Backend;
+
 import java.util.*;
 
 public class Player {
@@ -63,7 +65,18 @@ public class Player {
     }
 
     public void payPlayer(Player player, int moneyOwed){
+        if (moneyOwed > this.getBalance()) {
+            player.setPlayerBalance(player.getBalance() + moneyOwed);
+            this.setPlayerBalance(getBalance() - moneyOwed);
+        } else {
 
+        }
+
+    }
+
+    public void mortageProperty(Property property) {
+        property.setCurrentlyMortaged(true);
+        this.setPlayerBalance(this.getBalance() + property.getMortageValue());
     }
 
 

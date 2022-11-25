@@ -1,3 +1,5 @@
+package Backend;
+
 public class Utility extends Property{
 
     public Utility(String propertyName, int propertyLocation, Player owner, int propertyCost, int rent) {
